@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lucasmartel/static/css/main.e0fa12bf.css",
+    "main.js": "/lucasmartel/static/js/main.37429de7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/lucasmartel/static/js/787.28cb0dcd.chunk.js",
+    "static/media/perfil.jpeg": "/lucasmartel/static/media/perfil.e635bfd4984a84c10d12.jpeg",
+    "index.html": "/lucasmartel/index.html",
+    "main.e0fa12bf.css.map": "/lucasmartel/static/css/main.e0fa12bf.css.map",
+    "main.37429de7.js.map": "/lucasmartel/static/js/main.37429de7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/lucasmartel/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0fa12bf.css",
+    "static/js/main.37429de7.js"
+  ]
+}
