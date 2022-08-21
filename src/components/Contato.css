@@ -1,0 +1,47 @@
+.contato-container{
+    margin: auto;
+    width: 95%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3%;
+    box-shadow: 0.2em 0.2em 0.3em black;
+}
+
+.contact-item{
+    width: 100%;
+    height: auto;
+    font-size: 90%;
+    background-color: rgba(128, 128, 128, 0.075);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5%;
+}
+
+.icon-contato{
+    font-size: 160%;
+    opacity: 0.9;
+}
+
+.contact-item p{
+    font-size: 120%;
+    margin-left: 5%;
+    background-color: rgba(27, 27, 27, 0.39);
+    padding: 0% 4%;
+    border-radius: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .contact-item{
+        justify-content: space-between;
+    }
+}

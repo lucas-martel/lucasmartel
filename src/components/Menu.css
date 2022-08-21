@@ -1,0 +1,54 @@
+.menu-inicial{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "inicio meio fim";
+    justify-items: center;
+    align-items: center;
+    font-size: 5vmin;
+    background-color: rgb(10, 0, 20);
+    border-radius: 0 0 1em 1em;
+}
+
+.menu-inicial div{
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--paytone);
+}
+
+.sobre{
+    grid-area: inicio;
+}
+
+.projetos{
+    grid-area: meio;
+}
+
+.contato{
+    grid-area: fim;
+}
+
+.bottom::after{
+    content: '';
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 10%;
+    background: rgb(132, 0, 255);
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .menu-inicial{
+        font-size: 100%;
+        width: 70%;
+    }
+
+    .menu-option:hover{
+        transition: color 100ms ease-in;
+        color: rgb(180, 113, 247);
+    }
+}

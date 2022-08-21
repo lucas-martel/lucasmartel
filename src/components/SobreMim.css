@@ -1,0 +1,65 @@
+.sobre-mim-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10%;
+    overflow: scroll;
+}
+
+.sobre-mim-container >*{
+    margin-bottom: 10%;
+}
+
+.sobre-mim-section{
+    height: auto;
+    width: auto;
+    padding: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+
+#perfil-img{
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    border: 3px solid rebeccapurple;
+    box-shadow: 0.1em 0.1em 1em black;
+}
+
+#perfil-img:hover{
+    border: none;
+}
+
+.sobre-mim-section p{
+    margin-left: 5%;
+    display: flex;
+    font-size: 80%;
+    text-align: justify;
+}
+
+@media screen and (min-width: 768px){
+    .sobre-mim-container{
+        overflow-x: hidden;
+    }
+    .sobre-mim-container::-webkit-scrollbar{
+        width: 10px;
+    }
+    .sobre-mim-container::-webkit-scrollbar-track{
+        background: rgb(20, 20, 20);
+    }
+    .sobre-mim-container::-webkit-scrollbar-thumb {
+        background-color: rgb(153, 0, 255);
+        border-radius: 20px;
+    }
+    #perfil-img{
+        height: 15%;
+        width: 15%;
+    }
+    .sobre-mim-section p{
+        font-size: 100%;
+    }
+}
