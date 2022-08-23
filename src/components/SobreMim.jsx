@@ -7,23 +7,25 @@ import CardTable from './CardTable';
 const SobreMim = () => {
     const thTecWeb = [
         'tecnologias', 'nível de conhecimento'
-    ]    
+    ]
     const tdTecWeb = [
-        ['html, css, js', '6 de 10'], 
-        ['react.js', '5 de 10'],
-        ['scss', '6 de 10']
+        ['html, css, js', '7 de 10'],
+        ['react.js', '6 de 10'],
+        ['SASS', '7 de 10'],
+        ['bootstrap', '6 de 10']
     ]
     const thLinguagens = ['Linguagens']
     const tdLinguagens = [
-        ['c | c++'], 
-        ['java'], 
-        ['javaScript'], 
-        ['c#'], 
+        ['c'],
+        ['c++'],
+        ['java'],
+        ['javaScript'],
+        ['c#'],
         ['python']
     ]
     const thMetodologias = ['Metologias']
     const tdMetologias = [
-        ['scrum'], 
+        ['scrum'],
         ['kanban']
     ]
 
@@ -33,24 +35,26 @@ const SobreMim = () => {
             <Card title="Sobre Mim" idContent="sobre-mim-card">
                 <div className="sobre-mim-section">
                     <img id="perfil-img" src={perfil} alt="foto de perfil" />
-                    <p>Olá, Meu nome é lucas leonã, estudante de engenharia de software pela universidade federal do amazonas(ufam).<br />Atualmente estou focado no estudo de front end.</p>
+                    <p>Olá, Meu nome é lucas leonã, estudante de engenharia de software pela universidade federal do amazonas(ufam).
+                        <br />
+                        Atualmente estou focado no estudo de front end usando tecnologias como react, jquery, bootstrap, sass, babel js, dentre outras.</p>
                 </div>
             </Card>
-            <CardTable 
-                title_="Tecnologias Web que Conheço" 
+            <CardTable
+                title_="Tecnologias Web que Conheço"
                 idContent_="tec-web-cardTable"
                 threads={thTecWeb}
-                tecInfo={tdTecWeb}/>
-            <CardTable 
-                title_="Linguagens que Conheço" 
+                tecInfo={tdTecWeb} />
+            <CardTable
+                title_="Linguagens que Conheço"
                 idContent_="linguagens-cardTable"
                 threads={thLinguagens}
-                tecInfo={tdLinguagens}/>
-            <CardTable 
-                title_="Metologias agéis que Conheço" 
+                tecInfo={tdLinguagens} />
+            <CardTable
+                title_="Metologias agéis que Conheço"
                 idContent_="metodologias-cardTable"
                 threads={thMetodologias}
-                tecInfo={tdMetologias}/>
+                tecInfo={tdMetologias} />
         </div>
     )
 }
