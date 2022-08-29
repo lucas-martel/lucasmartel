@@ -14,14 +14,14 @@ const SobreMim = () => {
         ['SASS', '7 de 10'],
         ['bootstrap', '6 de 10']
     ]
-    const thLinguagens = ['Linguagens']
+    const thLinguagens = ['Linguagens', 'nível de conhecimento']
     const tdLinguagens = [
-        ['c'],
-        ['c++'],
-        ['java'],
-        ['javaScript'],
-        ['c#'],
-        ['python']
+        ['c', '7 de 10'],
+        ['c++', '6 de 10'],
+        ['java', '5 de 10'],
+        ['javaScript', '8 de 10'],
+        ['c#', '6 de 10'],
+        ['python', '5 de 10']
     ]
     const thMetodologias = ['Metologias']
     const tdMetologias = [

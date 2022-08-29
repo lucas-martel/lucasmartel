@@ -2,12 +2,11 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 9fr;
-    grid-template-areas: "menu" 
-                          "content";
-    justify-items: center;
-    align-items: start;    
+    justify-items: center;    
+    grid-template: 
+                "menu" 1fr
+                "content" 9fr
+                /1fr;
 }
 
 
@@ -19,9 +18,10 @@
     grid-area: content;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
     .App{
         width: 70%;
         margin: auto;
+        row-gap: 1em;
     }
 }

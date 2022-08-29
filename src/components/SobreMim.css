@@ -7,6 +7,8 @@
     align-items: center;
     padding-top: 10%;
     overflow: scroll;
+    background-color: rgba(0, 0, 0, 0.281);
+    border-radius: 2em;
 }
 
 .sobre-mim-container >*{
@@ -26,12 +28,14 @@
     height: 30%;
     width: 30%;
     border-radius: 50%;
-    border: 3px solid rebeccapurple;
-    box-shadow: 0.1em 0.1em 1em black;
+    border: 0.2em solid rebeccapurple;
+    box-shadow: 0.1em 0.1em 1em rgba(206, 156, 255, 0.14);
+    transition: all 100ms linear;
 }
 
 #perfil-img:hover{
     border: none;
+    box-shadow: 0.2em 0.2em 0em rebeccapurple;
 }
 
 .sobre-mim-section p{
@@ -41,9 +45,10 @@
     text-align: justify;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1200px){
     .sobre-mim-container{
         overflow-x: hidden;
+        height: 90%;
     }
     .sobre-mim-container::-webkit-scrollbar{
         width: 10px;
